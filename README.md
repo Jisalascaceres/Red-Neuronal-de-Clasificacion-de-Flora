@@ -2,13 +2,13 @@
 #### Hecho por: José Ignacio Salas Cáceres
 
 
-Temas: Red neuronal, Python, Clasificador, Transfer learning, Plantas, otánica
+Temas: Red neuronal, Python, Clasificador, Transfer learning, Plantas, botánica.
 
 ### Introducción.
 
 En este programa se ha elaborado una red neuronal que pueda clasificar entre 10 plantas de la flora española.  
-El dataset usado cuenta con 10 clases de 200 imágenes aprox. cada uno.  
-Las imágenes de todo el grupo excepto el girasol proceden del Banco taxonómico Digital de la Flora Ibérica de la web Biodiversidadvirtual.org  (https://www.biodiversidadvirtual.org/herbarium/)    
+El dataset usado cuenta con 10 clases de 200 imágenes aprox. , cada uno.  
+Las imágenes de todo el grupo excepto el girasol proceden del Banco taxonómico Digital de la Flora Ibérica de la web Biodiversidadvirtual.org.  (https://www.biodiversidadvirtual.org/herbarium/)    
 Las imágenes del girasol proceden del dataset "Flower Recognition" de kaggle. (https://www.kaggle.com/datasets/alxmamaev/flowers-recognition)
 
 El listado de plantas usado, con nombre científico y común, es el siguiente:  
@@ -27,10 +27,10 @@ El listado de plantas usado, con nombre científico y común, es el siguiente:
  
  Para realizar esta clasificación se ha comenzado con una red convolutiva estándar al que se le han ido cambiando los hiperparámetros para aumentar el rendimiento.
  También, se ha aplicado Transfer Learning, en concreto importando el modelo VGG16 y cambiando algunas capas, añadiendo otras o haciendolas entrenables.  
- Este último modelo, con 2 capas entrenables, es el que ha dado mayor precision a la hora de clasificar el conjunto de validación, llegando a más del __90%__
+ Este último modelo, con 2 capas entrenables, es el que ha dado mayor precision a la hora de clasificar el conjunto de validación, llegando a más del __90%__ .
    
  #### Contenido:
  
   El contenido del repositorio estará organizado de la siguiente manera:
   + Las versiones anteriores a la final, con los modelos probados estan en la carpeta: __Versiones__.
-  + La versión final, junto con un informe más detallado del proyecto, se encuentra en la carpeta: __Resultado__
+  + La versión final, junto con un informe más detallado del proyecto, se encuentra en la carpeta: __Resultado__.
