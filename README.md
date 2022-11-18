@@ -2,6 +2,8 @@
 #### Hecho por: José Ignacio Salas Cáceres
 
 
+Temas: Red neuronal, Python, Clasificador, Transfer learning, Plantas, otánica
+
 ### Introducción.
 
 En este programa se ha elaborado una red neuronal que pueda clasificar entre 10 plantas de la flora española.  
