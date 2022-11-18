@@ -27,6 +27,7 @@ El listado de plantas usado, con nombre científico y común, es el siguiente:
  
  Para realizar esta clasificación se ha comenzado con una red convolutiva estándar al que se le han ido cambiando los hiperparámetros para aumentar el rendimiento.
  También, se ha aplicado Transfer Learning, en concreto importando el modelo VGG16 y cambiando algunas capas, añadiendo otras o haciendolas entrenables.  
+ Este último modelo, con 2 capas entrenables, es el que ha dado mayor precision a la hora de clasificar el conjunto de validación, llegando a más del __90%__
    
  #### Contenido:
  
