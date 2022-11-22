@@ -34,7 +34,7 @@ El listado de plantas usado, con nombre científico y común, es el siguiente:
  + Una versión con una serie de hiperparametros usando solamente redes convolutivas.
  + Una versión parecida a la anterior con otros hiperparametros.
  + Una versión aplicando Transfer Learning con el modelo VGG16, sin entrenar ninguna de las capas de este.
- + Una versión aplicando Transfer Learning con el modelo VGG16, entrenando esta vez las dos últimas capas.
+ + Una versión aplicando Transfer Learning con el modelo VGG16, aplicando también Fine Tunning, es decir, entrenando del modelo VGG16 algunas capas.
    
  Aunque estos son los entregados, se han probado por el camino varios modelos más, diferentes iteraciones de estos 4. Estas versiones se encuentran en la carpeta __Versiones__, excepto la final y que obtuvo mejores resultados que se encuentra junto con el Readme.
  
