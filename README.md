@@ -2,8 +2,6 @@
 #### Hecho por: José Ignacio Salas Cáceres
 
 
-Temas: Red neuronal, Python, Clasificador, Transfer learning, Plantas, botánica.
-
 ### Introducción.
 
 En este programa se ha elaborado una red neuronal que pueda clasificar entre 10 plantas de la flora española.  
@@ -31,6 +29,12 @@ El listado de plantas usado, con nombre científico y común, es el siguiente:
    
  #### Contenido:
  
-  El contenido del repositorio estará organizado de la siguiente manera:
-  + Las versiones anteriores a la final, con los modelos probados estan en la carpeta: __Versiones__.
-  + La versión final, junto con un informe más detallado del proyecto, se encuentra en la carpeta: __Resultado__.
+ En el repositorio nos encontramos con varias versiones de este mismo proyecto, y es que para obtener un modelo con buenos resultados se han probado otros tantos. A modo de resumen, se han subido 4 versiones del trabajo:  
+ 
+ + Una versión con una serie de hiperparametros usando solamente redes convolutivas.
+ + Una versión parecida a la anterior con otros hiperparametros.
+ + Una versión aplicando Transfer Learning con el modelo VGG16, sin entrenar ninguna de las capas de este.
+ + Una versión aplicando Transfer Learning con el modelo VGG16, entrenando esta vez las dos últimas capas.
+   
+ Aunque estos son los entregados, se han probado por el camino varios modelos más, diferentes iteraciones de estos 4.
+ 
