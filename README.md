@@ -42,6 +42,6 @@ El listado de plantas usado, con nombre científico y común, es el siguiente:
  
  Para la realización de este trabajo se han utilizado los siguientes recursos:  
  + Librería Keras para la construcción de los modelos de redes neuronales y el Transfer Learning.
- + Librería Matplotlib para la representación gráfica de resultados.
+ + Librería Matplotlib y Seaborn para la representación gráfica de resultados.
  + Google Colab como IDE.
  
